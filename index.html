@@ -1,34 +1,199 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Homework 17 AnyssaB</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <img src="images/logo.png">
-      <ul>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
-      </ul>
-    </header>
-    <section class="heroImg">
-      <div class="content">
-        <img src="images/placeholder_picture.png">
-        <h1>Your Name</h1>
-        <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua.</p>
-        <button>Download Resume</button>
+    <title>Portfolio</title>
+	  <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.css"  rel="stylesheet">
+  <link href="css/style.css"  rel="stylesheet">
+  <link type="text/css" href="css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+</head>	
+<body>
+
+  <div class="container">
+    
+  <!-- Header section Start -->
+  <header>
+       <nav class="navbar navbar-expand-lg navbar-light">
+  
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="site logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end menu" id="navbarNav">
+      <ul class="navbar-nav navbar-right">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="about.html">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="case-study.html">Case Study</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Resume</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link  " href="#" >Contact</a>
+                          </li>
+                        </ul>
+    </div>
+
+</nav>
+    
+    <div class="hero-sec animatedParent">
+             <div class="row" >
+                 <div class="col-md-6">
+                        <div class="hero-content animated fadeIn">
+                            <h2>Anyssa | Barbour </h2>
+                            <h1>UX | UI <br>Designer</h1>
+                            <p>
+                                This athliesure-boho-chic, farm girl combines wholehearted living and behavior analysis to create user-centered, business-focused products!
+                                </p>
+                                <button>Let’s Connect</button>
+                        </div>
+
+                 </div>
+                 <div class="col-md-6">
+                    <div class="hero-img animated bounceInRight">
+                        <img src="images/hero-image.svg" alt="portfolio picture">
+                    </div>
+                 </div>
+
+             </div>
+
+    </div>
+
+  </header>
+<!-- Header section end -->
+
+
+<!-- Tool Box section start -->
+  <section class="tool-box animatedParent">
+    <h2 class="text-center">Toolbox</h2> 
+    <div class="row">
+      <div class="col-md-12 animated flipInX">
+       <ul>
+         <li><img src="images/canva-logo.svg" alt="canva"></li>
+         <li><img src="images/xd-logo.svg" alt="xd"></li>
+         <li><img src="images/figma-logo.svg" alt="figma"></li>
+         <li><img src="images/miro-logo.svg" alt="miro"></li>
+         <li><img src="images/github-logo.svg" alt="github"></li>
+         <li><img src="images/notion-logo.svg" alt="notion"></li>
+       </ul>
       </div>
-    </section>
-    <footer>
-      <ul>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
-      </ul>
-    </footer>
-  </body>
+    </div>
+  </section>
+<!-- Tool Box section End -->
+
+
+
+ <!-- Skills section Start -->  
+  <section class="skills-sec">
+         <h2 class="text-center">UX Skills</h2>
+        <div class="row">
+             <div class="col-md-4">
+                      <div class="skills-content">
+                       
+                             <img src="images/research.svg" alt="">
+                       
+                           <h2>User Research</h2>
+                           <p>Problem Statement <br>
+                            Hypothesis<br>
+                            Usability Studies<br>
+                            Synthesis</p>
+
+                      </div>
+
+             </div>
+             <div class="col-md-4">
+                <div class="skills-content">
+                  
+                      <img src="images/ux-design.svg" alt="">
+              
+                    <h2>UX Design</h2>
+                    <p>Design Goal<br>
+                        User-centric-approach<br>
+                        Wireframe<br>
+                        Prototype<br>
+                        Usability Testing</p>
+
+               </div>
+             </div>
+             <div class="col-md-4">
+                <div class="skills-content">
+                 
+                      <img src="images/product-analytics.svg" alt="product Analytics">
+                
+                    <h2>Product Analytics</h2>
+                    <p>Web Analytics <br>
+                        Data Visualization<br>
+                        Competitor Analysis<br>
+                        Data Insights</p>
+
+               </div>
+             </div>
+
+        </div>
+  </section> 
+  <!-- Skills section End -->
+
+  
+  <!-- Latest work section Start -->   
+  <section class="latest-sec animatedParent">
+    <h2 class="text-center">Latest work</h2>
+    <div class="latest-main">
+      <div class="row">
+        
+         <div class="col-md-6 animated bounceInLeft" > 
+                    
+            <div class="card">
+                <img src="images/nashville.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nashville Aikikai Redesign</h5>
+                  <p class="card-text">See Case Study</p>
+              
+                </div>
+              </div>
+           
+
+         </div>
+         <div class="col-md-6 animated bounceInRight" >
+            <div class="card">
+                <img src="images/case-study.png"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Apple’s Reminders Redesign</h5>
+                  <p class="card-text">See Case Study</p>
+                  
+                </div>
+              </div>
+         </div>
+      </div>
+  </div> 
+  </section>
+  <!-- Latest work section End --> 
+  
+  </div> <!-- Container End --> 
+
+
+  <footer>
+    <div>
+           <h2>Let’s create an amazing user-experience! </h2>
+           <h5> <a href="mailto:anyssa.barbour1@gmail.com">anyssa.barbour1@gmail.com</a> </h5>
+           <p> Copy Right 2022</p>
+
+        </div>
+         <a href="#" id="scroll" style="display: none;"><span></span></a> 
+  </footer>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="js/animate-it.js"></script>  
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>     
 </html>
